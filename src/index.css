@@ -1,3 +1,10 @@
+:root {
+  --first-color: #874C62;
+  --second-color: #C98474;
+  --third-color: rgba(242,211,136,1);
+  --fourth-color: #A7D2CB;
+}
+
 html {
   height: 100vh;
 }
@@ -19,4 +26,12 @@ code {
 
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+
+/* provare effetto parallax */
+section {
+  box-sizing: border-box;
+  height: 120vh;
+  padding: 0px 30%;
 }
