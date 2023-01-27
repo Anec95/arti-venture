@@ -1,0 +1,134 @@
+.homepage-main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.left-section {
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 50px;
+}
+
+.menu-element {
+    position: relative;
+    width: 24px;
+    height: 90%;
+}
+
+.menu-container {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-element:hover {
+    width: 304px;
+}
+
+.one:hover .contact-title,
+.two:hover .practices-title,
+.three:hover .activities-title,
+.four:hover .courses-title {
+    display: none;
+}
+
+.menu-element:hover .menu-container {
+    width: 300px;
+    cursor: pointer;
+}
+
+.menu-list {
+    width: 200px;
+    top: 60px;
+    align-self: flex-start;
+    text-align: start;
+    position: absolute;
+    display: none;
+
+    font-size: 24px;
+    color: white;
+}
+
+.menu-list p {
+    margin-bottom: 10px;
+}
+
+.one:hover .menu-list,
+.two:hover .menu-list,
+.three:hover .menu-list,
+.four:hover .menu-list {
+    display: block;
+}
+
+.contact-and-biography {
+    background-color: lightgreen;
+    height: 100%;    
+}
+
+.one {
+   margin-top: 30px;
+}
+
+.practices {
+    background-color: lightsalmon;
+}
+
+.two {
+    margin-top: 60px;
+}
+
+.activities {
+    background-color: lightseagreen;
+}
+
+.three {
+    margin-top: 20px;
+}
+
+.courses {
+    background-color: lightcoral;    
+}
+
+.four {
+    margin-top: 35px; 
+}
+
+.title {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.name-association {
+    font-size: 80px;
+}
+
+.mission {
+    font-size: 60px;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 40px 50px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
