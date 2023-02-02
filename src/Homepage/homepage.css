@@ -64,10 +64,16 @@
     font-size: 24px;
 }
 
-.logo-img {
+.right-section {
+    width: 15vw;
     align-self: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img { 
+    margin-top: 50px;   
     width: 100px;
-    margin: 30px;
 }
 
 .middle-container {

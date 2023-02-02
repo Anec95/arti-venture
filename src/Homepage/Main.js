@@ -61,7 +61,9 @@ export default function Main() {
                     </span>
                 </div>                
             </div>
-            <img className="animate__animated animate__zoomIn logo-img" src={logo} alt="logo arti mistiche" />
+            <div className="right-section">
+                <img className="animate__animated animate__zoomIn logo-img" src={logo} alt="logo arti mistiche" />
+            </div>
         </main>
     )
 }
