@@ -36,6 +36,9 @@ export default function Main() {
                                 expand_more
                             </span>
                         </div>
+                        <div className="menu-element">
+                            <p className="title-menu">Bibliografia e Filmografia</p>
+                        </div>
                     </nav>
                 }
             </div>

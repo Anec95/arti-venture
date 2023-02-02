@@ -20,7 +20,12 @@
 
 .menu-icon {
     margin: 50px;
+    user-select: none;
 }
+
+.menu-icon:hover {
+    cursor: pointer;
+} 
 
 .menu-icon-showed {
     color: var(--ice);
@@ -46,7 +51,7 @@
     display: flex;
     align-items: center;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .title-menu {
@@ -62,7 +67,7 @@
 .logo-img {
     align-self: flex-start;
     width: 100px;
-    margin: 20px;
+    margin: 30px;
 }
 
 .middle-container {
@@ -144,6 +149,10 @@ section hr {
 }
 
 .courses-section {
-    height: 100vh;
     background-color: var(--ice-variant);
+}
+
+.bibliography-section {
+    height: 100vh;
+    background-color: var(--ice);
 }

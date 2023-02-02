@@ -35,6 +35,17 @@ const dataText = [
         title3: "",
         description3: "",
         link: ""
+    },
+    {
+        id: 4,
+        classe: "bibliography-section",
+        title: "Bibliografia e Filmografia",
+        description: "",
+        title2: "",
+        description2: "",
+        title3: "",
+        description3: "",
+        link: ""
     }
 ]
 
