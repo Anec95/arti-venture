@@ -1,9 +1,17 @@
 :root {
-  --first-color: #874C62;
-  --second-color: #C98474;
-  --third-color: rgba(242,211,136,1);
+  --first-color: #B5D5C5;
+  --second-color: #8397C7;
+  --indaco: #7999ED;
   --fourth-color: #A7D2CB;
+  --ice: #E5E6E8;
+  --ice-variant: #d8dce9;
 }
+
+/* 
+B5D5C5
+AAE3E2
+B4CDE6
+ */
 
 html {
   height: 100vh;
@@ -30,8 +38,4 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 /* provare effetto parallax */
-section {
-  box-sizing: border-box;
-  height: 120vh;
-  padding: 0px 30%;
-}
+

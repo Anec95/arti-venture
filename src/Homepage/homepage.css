@@ -1,90 +1,149 @@
 .homepage-main {
-    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--ice);
+}
+
+.material-icons-outlined {
+    font-size: 50px;
+    color: var(--indaco);
+}
+
+.menu-container {
+    align-self: flex-start;
+    position: relative;
+    height: 100vh;
+    width: 15vw;
+}
+
+.menu-icon {
+    margin: 50px;
+}
+
+.menu-icon-showed {
+    color: var(--ice);
+    margin-bottom: 100px;
+}
+
+.showed-menu {
+    background-color: var(--indaco);
+}
+
+.navbar {
+    position: absolute;
+    width: 15vw;
+    height: 100vh;
+    color: var(--ice);
+    font-family: 'Fredericka the great';
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* background-color: #B5D5C5; */
-    background-color: #874C62;
-}
-
-.homepage-main div {
-    
-    height: 100vh;
-}
-
-.homepage-main img {
-    height: 90%;
-}
-
-.footer-menu {
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    bottom: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .menu-element {
-    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
-.menu-element:hover .nav-container {
-    display: block;
-    cursor: pointer;
+.title-menu {
+    font-size: 24px;
+    text-align: left;
 }
 
-.link-bio,
-.title-type {    
-    background-color: var(--third-color);
-    text-decoration: none;
-    padding: 10px;
+.expand-icon {
+    color: var(--ice);
+    font-size: 24px;
+}
+
+.logo-img {
+    align-self: flex-start;
     width: 100px;
-    font-weight: 900;
-    color: var(--first-color);
-    border-radius: 4px;
-    text-align: center;
+    margin: 20px;
 }
 
-.menu-element:hover .title-type {
-    border-radius: 0 0 4px 4px;
-}
-
-.title-type:hover {
-    filter: brightness(125%);
-    cursor: pointer;
-}
-
-.nav-container {
-    display: none;
-}
-
-.container-link {
+.middle-container {
+    height: 100%;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: -190px;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.link-activities {
-    height: 30px;
-    padding-top: 6px;
-    padding-bottom: 2px;
-    color: var(--first-color);
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(247, 223, 166);
+.association-container {
+    color: var(--indaco);
+    margin: auto 0;
 }
 
-.link-activities:hover {
-    height: 30px;
-    background-color: rgb(247, 223, 166);
-    filter: brightness(125%);
+.association-name,
+.association-slogan {
+    font-family: 'Aboreto';
+    text-align: left;
 }
 
-.first-link {
-    border-radius: 4px 4px 0 0;
+.association-name {
+    font-size: 80px;
+}
+
+.scroll-down-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll {
+    font-size: 24px;
+    font-weight: 700;
+    font-variant: small-caps;
+    color: var(--indaco);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 25%;
+    height: 120vh;
+    color: var(--indaco);
+}
+
+section h1,
+section h3 {
+    font-family: 'Fredericka the great';
+    margin-bottom: 10px;
+}
+
+section h1 {
+    font-size: 44px;
+}
+
+section h3 {
+    font-size: 32px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+section hr {
+    color: var(--indaco);
+}
+
+.chi-siamo-section {
+    background-color: var(--ice-variant);
+}
+
+.practices-section {
+    background-color: var(--ice);
+}
+
+.courses-section {
+    height: 100vh;
+    background-color: var(--ice-variant);
 }
