@@ -8,7 +8,7 @@
 
 .material-icons-outlined {
     font-size: 50px;
-    color: var(--indaco);
+    color: var(--black);
 }
 
 .menu-container {
@@ -21,6 +21,7 @@
 .menu-icon {
     margin: 50px;
     user-select: none;
+    color: var(--indaco);
 }
 
 .menu-icon:hover {
@@ -49,14 +50,45 @@
 
 .menu-element {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     margin-left: 50px;
     margin-bottom: 30px;
+}
+
+.title-menu-container {
+    display: flex;
+    align-items: center;
 }
 
 .title-menu {
     font-size: 24px;
     text-align: left;
+    padding-right: 5px;
+}
+
+.single-menu {
+    cursor: pointer;
+}
+
+.expand-menu:hover {
+    cursor: context-menu;
+}
+
+.list-menu {
+    list-style-type: none;
+    margin-left: -25px;
+}
+
+.list-menu li {
+    margin: 8px;
+}
+
+.list-menu li:hover {
+    cursor: pointer;
+}
+
+.title-menu-container span:hover {
+    cursor: pointer;
 }
 
 .expand-icon {
@@ -86,18 +118,23 @@
 }
 
 .association-container {
-    color: var(--indaco);
+    font-family: 'Aboreto';
+    color: var(--black);
     margin: auto 0;
 }
 
 .association-name,
 .association-slogan {
-    font-family: 'Aboreto';
+    
     text-align: left;
 }
 
 .association-name {
     font-size: 80px;
+}
+
+.quotes-container {
+    padding: 40px 10px;
 }
 
 .scroll-down-container {
@@ -110,7 +147,7 @@
     font-size: 24px;
     font-weight: 700;
     font-variant: small-caps;
-    color: var(--indaco);
+    color: var(--black);
 }
 
 section {
@@ -120,7 +157,7 @@ section {
     box-sizing: border-box;
     padding: 0 25%;
     height: 120vh;
-    color: var(--indaco);
+    color: var(--black);
 }
 
 section h1,
