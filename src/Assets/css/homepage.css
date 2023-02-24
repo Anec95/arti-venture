@@ -1,0 +1,243 @@
+.homepage-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--ice);
+}
+
+
+                    /* MENU/NAVBAR ELEMENTS */
+
+.material-icons-outlined {
+    font-size: 50px;
+    color: var(--black);
+}
+
+.menu-container {
+    align-self: flex-start;
+    position: relative;
+    height: 100vh;
+    width: 15vw;
+}
+
+.menu-icon {
+    margin: 50px;
+    user-select: none;
+    color: var(--indaco);
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+    filter: brightness(125%);
+} 
+
+.menu-icon-showed {
+    color: var(--ice);
+    margin-bottom: 100px;
+}
+
+.menu-icon-showed:hover {
+    filter: brightness(200%);
+}
+
+.showed-menu {
+    background-color: var(--indaco);
+}
+
+.navbar {
+    position: absolute;
+    width: 15vw;
+    height: 100vh;
+    color: var(--ice);
+    font-family: 'Aboreto';
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-element {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: var(--ice);
+}
+
+.title-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-menu {
+    font-size: 24px;
+    text-align: left;
+    padding-right: 5px;
+    text-decoration: none;
+    color: var(--ice);
+}
+
+.title-menu:hover {
+    filter: brightness(200%);
+}
+
+.single-menu {
+    cursor: pointer;
+}
+
+.expand-menu:hover {
+    cursor: context-menu;
+}
+
+.list-menu {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-element {
+    margin: 8px;
+    text-decoration: none;
+    color: var(--ice);
+}
+
+.list-element:hover {
+    cursor: pointer;
+    filter: brightness(200%);
+}
+
+.title-menu-container span:hover {
+    cursor: pointer;
+}
+
+.expand-icon {
+    color: var(--ice);
+    font-size: 24px;
+}
+
+
+                    /* RIGHT SECTION */
+
+.right-section {
+    width: 15vw;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img { 
+    margin-top: 50px;   
+    width: 100px;
+}
+
+
+                    /* MIDDLE SECTION */
+
+.middle-container {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.association-container {
+    font-family: 'Aboreto';
+    color: var(--black);
+    margin: auto 0;
+}
+
+.association-name,
+.association-slogan {
+    
+    text-align: left;
+}
+
+.association-name {
+    font-size: 80px;
+}
+
+.quotes-container {
+    padding: 40px 10px;
+    font-family: 'Explora';
+    font-size: 28px;
+    font-weight: 600;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.scroll-down-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll {
+    font-size: 24px;
+    font-weight: 700;
+    font-variant: small-caps;
+    color: var(--black);
+}
+
+
+                    /* SCHEDULE SECTION */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 25%;
+    height: 120vh;
+    color: var(--black);
+}
+
+section h1,
+section h3 {
+    font-family: 'Fredericka the great';
+    margin-bottom: 10px;
+}
+
+section h1 {
+    font-size: 44px;
+}
+
+section h3 {
+    font-size: 32px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+section hr {
+    color: var(--indaco);
+}
+
+.chi-siamo-section {
+    background-color: var(--ice-variant);
+}
+
+.practices-section {
+    background-color: var(--ice);
+}
+
+.article-section {
+    background-color: var(--ice-variant);
+}
+
+/* .courses-section {
+    background-color: var(--ice);
+} */
+
+.bibliography-section {
+    height: 100vh;
+    /* background-color: var(--ice-variant); */
+    background-color: var(--ice);
+}
