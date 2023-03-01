@@ -79,11 +79,9 @@
     color: var(--ice);
 }
 
-.title-menu:hover {
+.single-menu:hover,
+.expand-icon:hover {
     filter: brightness(200%);
-}
-
-.single-menu {
     cursor: pointer;
 }
 

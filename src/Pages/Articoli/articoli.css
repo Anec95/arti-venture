@@ -1,0 +1,19 @@
+.title-section {
+    font-family: 'Aboreto';
+    padding: 10px;
+}
+
+.cardSection_container {
+    padding: 20px 5%;
+    border-top: 2px solid var(--shadow);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 140px;
+    height: 180px;
+    background-color: lightcoral;
+    border-radius: 15px;
+}

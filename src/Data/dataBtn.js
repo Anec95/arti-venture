@@ -2,7 +2,7 @@ export const dataBtnList = [
     {
         id: 0,
         btnName: "Discipline",
-        btnPathName: "/",
+        btnPathName: "/discipline",
         list: [
             {
                 idList: 1,
@@ -39,7 +39,7 @@ export const dataBtnList = [
     {
         id: 1,
         btnName: "Corsi",
-        btnPathName: "/",
+        btnPathName: "/corsi",
         list: [
             {
                 idList: 1,

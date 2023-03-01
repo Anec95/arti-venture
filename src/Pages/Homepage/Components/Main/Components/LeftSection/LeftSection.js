@@ -21,15 +21,24 @@ export default function LeftSection() {
                 </span>
                 {menu &&
                     <nav className="navbar">
-                        <NavLink className="menu-element">
+                        <NavLink
+                            to="chi_siamo"
+                            className="menu-element"
+                        >
                             <p className="title-menu single-menu">Chi Siamo</p>
                         </NavLink>
                         <ComplexBtn arrayNumber={0} />
-                        <NavLink className="menu-element">
+                        <NavLink
+                            to="/articoli"
+                            className="menu-element"
+                        >
                             <p className="title-menu single-menu">Articoli</p>
                         </NavLink>
                         {/* <ComplexBtn arrayNumber={1} /> */}
-                        <NavLink className="menu-element">
+                        <NavLink
+                            to="/bibliografia_e_filmografia"
+                            className="menu-element"
+                        >
                             <p className="title-menu single-menu">Bibliografia e Filmografia</p>
                         </NavLink>
                     </nav>

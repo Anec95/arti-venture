@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 
 export default function Schedule(
     {classe, title, description, title2, description2, title3, description3, link}
@@ -14,7 +15,11 @@ export default function Schedule(
             {title3 && <h3>{title3}</h3>}
             {description3 && <p>{description3}</p>}
             {description3 && <hr />}
-            <p>Scopri di più {link}</p>
+            <NavLink
+                to={link}            
+            >
+                Scopri di più
+            </NavLink>
         </section>
     )
 }

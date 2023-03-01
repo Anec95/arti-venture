@@ -1,4 +1,4 @@
-import logo from "../../../../../../Assets/img/ice-indaco.png"
+import logo from "Assets/img/ice-indaco.png"
 
 export default function MiddleSection() {
     return (        

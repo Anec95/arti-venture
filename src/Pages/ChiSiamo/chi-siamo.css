@@ -1,0 +1,10 @@
+.contacts h3,
+.description_chiSiamo h3 {
+    font-size: 30px;
+    font-family: 'Aboreto';
+    margin-bottom: 15px;
+}
+
+.description_chiSiamo p {
+    margin-bottom: 50px;
+}

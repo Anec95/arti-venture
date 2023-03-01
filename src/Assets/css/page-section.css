@@ -1,0 +1,13 @@
+.page_main {
+    padding: 200px 20%;
+    color: var(--black);
+}
+
+.title_page {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.description_page {
+    margin-bottom: 80px;
+}

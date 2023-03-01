@@ -6,6 +6,7 @@
   --ice: #E5E6E8;
   --ice-variant: #d8dce9;
   --black: rgba(52,52,52,0.9);
+  --shadow: rgba(52,52,52,0.6);
 }
 
 /* 
@@ -21,6 +22,7 @@ html {
 body {
   margin: 0;
   height: 100vh;
+  background-color: var(--ice);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
