@@ -27,6 +27,15 @@
     align-items: center;
 }
 
+.expand p {
+    font-variant: small-caps;
+}
+
+.expand:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
+
 .card {
     width: 140px;
     height: 180px;

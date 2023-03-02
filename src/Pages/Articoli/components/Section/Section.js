@@ -1,6 +1,6 @@
 import { dataArticle } from "Data/dataArticle"
 import Card from "./Card/Card"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 export default function Section(props){
     const cardElements = dataArticle.map(data => {
