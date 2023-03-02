@@ -7,7 +7,7 @@ import Discipline from 'Pages/Discipline/Discipline';
 import Articoli from 'Pages/Articoli/Articoli';
 import BibliografiaEFilmografia from 'Pages/BibliografiaEFilmografia/BibliografiaEFilmografia';
 import Corsi from 'Pages/Corsi/Corsi';
-import Article from 'Pages/Articole/Article';
+import Article from 'Pages/Article/Article';
 
 export default function App() {
   return (

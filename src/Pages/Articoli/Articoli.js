@@ -7,7 +7,10 @@ export default function Articoli() {
     return (
         <main className='page_main'>
             <Description />
-            <Section />
+            <Section section_name={"Tarologia"}/>
+            <Section section_name={"Nomerologia"}/>
+            <Section section_name={"Astrologia"}/>
+            <Section section_name={"Terapie Essene"}/>
         </main>
     )
 }
