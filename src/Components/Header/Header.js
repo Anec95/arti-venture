@@ -11,7 +11,7 @@ export default function Header() {
                 <h1>Arti Venture</h1>
             </div>
             <div>
-                <img className="logo-header" src={logo} />
+                <img className="logo-header" alt='logo' src={logo} />
             </div>
         </header>
     )
