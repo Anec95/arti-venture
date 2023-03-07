@@ -2,7 +2,7 @@ export default function MiddleSection() {
     return (
         <div className="middle-container">                               
             <div className="association-container">
-                <h1 className="association-name">Arti Mistiche</h1>
+                <h1 className="association-name">Arti Venture</h1>
                 <h3 className="association-slogan">Una libera ricerca olistica</h3>
                 <div className="quotes-container">
                     <p className="quotes">Il mio occhio viene da un altro universo.</p>

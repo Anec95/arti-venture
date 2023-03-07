@@ -100,10 +100,10 @@ export const dataArticle = [
     },
     {
         id: 11,
-        photo: "Assets/img/photo_article/tenno-lake-autumn-2021.JPG",
-        title: "Lavaggi Energetici",
-        link: "/lavaggi_energetici",
-        date: "15.04.1999",
+        photo: "",
+        title: "",
+        link: "",
+        date: "",
         author: "Gino Arguto",
         text: ""
     }
