@@ -1,12 +1,12 @@
 .title-section {
-    font-family: 'Aboreto';
     padding: 10px;
 }
 
 .cardSection_container {
     height: 240px;
     padding: 20px 5%;
-    border-top: 2px solid var(--shadow);
+    /* border-top: 2px solid #867183; */
+    box-shadow: inset 0px 5px 15px var(--secondary-shadow);
     border-radius: 15px;
     margin-bottom: 50px;
     overflow: hidden;
@@ -15,7 +15,7 @@
 .expanded-view {
     height: max-content;
     padding: 20px 5%;
-    border-top: 2px solid var(--shadow);
+    box-shadow: 2px 5px 10px 5px var(--secondary-shadow);
     border-radius: 15px;
     margin-bottom: 50px; 
 }
@@ -43,6 +43,23 @@
     border-radius: 15px;
     position: relative;display: inline-block;
     margin: 10px 50px;
+}
+
+.card_expanded {
+    box-shadow: 5px 8px 10px 3px var(--secondary-shadow);
+}
+
+.card_expanded:hover {
+    box-shadow: 7px 10px 10px 7px var(--secondary-shadow);
+}
+
+.card_in_hole {
+    filter: brightness(80%);
+}
+
+.card_in_hole:hover {
+    filter: brightness(100%);
+    box-shadow: 3px 5px 10px 5px var(--secondary-shadow);
 }
 
 .photo-card {

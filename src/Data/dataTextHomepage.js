@@ -3,22 +3,20 @@ const dataTextHomepage = [
         id: 0,
         classe: "chi-siamo-section",
         title: "Chi Siamo",
-        description: `Esploratori indipendenti in cui scorre nelle vene il fuoco dell'antica conoscenza
-            dell'essere, abbiamo avvertito la chiamata al cosiddetto "Restauro dei Misteri", nel nome di
-            quelle discipline come Magia e Alchimia, che hanno ora l'occasione di essere ricordate alla luce
-            di una nuova consapevolezza.`,
-        title2: "Scopo",
-        description2: `Avvalorare i principi immortali che da sempre costituiscono uno
-            strumento per lo sviluppo armonico dell'uomo, grazie alle testimonianze degli operatori.`,
-        title3: "",
-        description3: ``,
+        subtitle: "Nota Introduttiva",
+        description: `Alle sglie di una grande trasformazione...
+            intrepidi alchimisti, maghi e cercatori, tracciano i parametri di una mappa essenziale
+            per l'uomo del futuro.`,
+        title2: "Cos'è Arti Venture",
+        description2: `Arti Venture è un distillato di antica saggezza , un compendio di ispirazione
+            iniziatica per lo sviluppo dell'essere.`,
         link: "/chi_siamo"
     },
     {
         id: 1,
         classe: "practices-section",
         title: "Discipline",
-        description: "",
+        description: "Sezione dedicata alle arti e alle scienze sacre proposte dagli operatori.",
         title2: "",
         description2: "",
         title3: "",

@@ -6,7 +6,8 @@
   --ice: #E5E6E8;
   --ice-variant: #d8dce9;
   --black: rgba(52,52,52,0.9);
-  --shadow: rgba(52,52,52,0.6);
+  --shadow: #2C2D2E;
+  --secondary-shadow: #998E9E;
 }
 
 /* 
@@ -39,6 +40,9 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Aboreto';
+}
 
 /* provare effetto parallax */
 

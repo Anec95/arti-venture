@@ -3,11 +3,11 @@ import Card from "./Card/Card"
 import { useState } from "react"
 
 export default function Section(props){
-    const cardElements = dataArticle.map(data => {
-        return <Card key={data.id} {...data}/>
-    })
-
     const [expand, setExpand] = useState(false)
+
+    const cardElements = dataArticle.map(data => {
+        return <Card expand={expand} key={data.id} {...data}/>
+    })
 
     function handleExpanse() {
         setExpand(oldValue => !oldValue)
