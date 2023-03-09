@@ -6,6 +6,7 @@ export const dataArticle = [
         link: "/il_mago_bianco",
         date: "24.03.2019",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -15,6 +16,7 @@ export const dataArticle = [
         link: "/eldorado",
         date: "02.10.2020",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -24,6 +26,7 @@ export const dataArticle = [
         link: "/il_terzo_occhio",
         date: "23.12.2016",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -33,6 +36,7 @@ export const dataArticle = [
         link: "/lavaggi_energetici",
         date: "15.04.1999",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -42,6 +46,7 @@ export const dataArticle = [
         link: "/il_mago_bianco",
         date: "24.03.2019",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -51,6 +56,7 @@ export const dataArticle = [
         link: "/eldorado",
         date: "02.10.2020",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -60,6 +66,7 @@ export const dataArticle = [
         link: "/il_terzo_occhio",
         date: "23.12.2016",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -69,6 +76,7 @@ export const dataArticle = [
         link: "/lavaggi_energetici",
         date: "15.04.1999",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -78,6 +86,7 @@ export const dataArticle = [
         link: "/il_mago_bianco",
         date: "24.03.2019",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -87,6 +96,7 @@ export const dataArticle = [
         link: "/eldorado",
         date: "02.10.2020",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -96,6 +106,7 @@ export const dataArticle = [
         link: "/il_terzo_occhio",
         date: "23.12.2016",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     },
     {
@@ -105,6 +116,7 @@ export const dataArticle = [
         link: "",
         date: "",
         author: "Gino Arguto",
+        abstract: "Incipit",
         text: ""
     }
 ]

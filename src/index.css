@@ -40,7 +40,16 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
+  font-family: 'Aboreto';
+}
+
+h6 {
+  /* usato per le citazioni */
+  font-family: 'Explora'; 
+}
+
+p {
   font-family: 'Aboreto';
 }
 

@@ -18,12 +18,12 @@ export default function Section(props){
             <div>
                 <h3 className="title-section">{props.section_name}</h3>
             </div>
-            <div className={expand ? "expanded-view" : "cardSection_container"}>
+            <div className={expand ? "expandedCardArticleSection" : "cardArticleSection_container"}>
                 {cardElements}
             </div>
             <div
                 onClick={handleExpanse}
-                className="expand"
+                className="expandArticleView"
             >
                 <p>{expand ? "Riduci" : "Espandi"}</p>
                 <span class="material-icons-outlined">
@@ -31,6 +31,5 @@ export default function Section(props){
                 </span>
             </div>
         </div>
-        
     )
 }

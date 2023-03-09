@@ -54,6 +54,7 @@
     position: absolute;
     width: 15vw;
     height: 100vh;
+    width: 100%;
     color: var(--ice);
     font-family: 'Aboreto';
     font-size: 14px;
@@ -157,7 +158,6 @@
 
 .association-name,
 .association-slogan {
-
     text-align: left;
 }
 
@@ -168,10 +168,15 @@
 .quotes-container {
     padding: 40px 10px;
     font-family: 'Explora';
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 600;
     word-spacing: 2px;
     letter-spacing: 2px;
+}
+
+.author {
+    margin-top: 5px;
+    font-size: 20px;
 }
 
 .scroll-down-container {
@@ -342,8 +347,16 @@ section hr {
     }
 
     .quotes-container {
-        padding: 40px 0px;
-        font-size: 20px;
+        padding: 40px 15px 40px 30px;
+        font-size: 24px;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+
+    .scroll-down-container {
+        margin-bottom: 40px;
     }
 
     .scroll {
@@ -361,7 +374,6 @@ section hr {
     section {
         padding: 0 5%;
         height: 115vh;
-        margin-left: 8px;
     }
 
     section h1 {
@@ -381,6 +393,10 @@ section hr {
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
 
                         /* MENU/NAVBAR ELEMENTS */
+
+    .left-section {
+        height: 105vh;
+    }
 
     .material-icons-outlined {
         font-size: 70px;
@@ -430,8 +446,24 @@ section hr {
 
                         /* MIDDLE SECTION */
 
+    .homepage-main {
+        height: 105vh;
+    }
+
     .association-name {
         margin-top: 100px;
+    }
+
+    .quotes-container {
+        font-size: 45px;
+    }
+
+    .author {
+        padding: 5px;
+    }
+
+    .scroll-down-container {
+        margin-bottom: 70px;
     }
 
     .scroll {

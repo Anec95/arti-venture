@@ -14,24 +14,31 @@ export default function Section(props){
     }
 
     return (
-        <div>
+        <div className="section-container">
             <div>
                 <h3 className="title-section">{props.section_name}</h3>
             </div>
-            <div className={expand ? "expanded-view" : "cardSection_container"}>
+            <div className="card-section">
                 <p>{props.disciplina_description}</p>
-                {cardElements}
+                <div className={expand ? "expanded-view" : "card_container"}>
+                    
+                    {cardElements}
+                </div>
             </div>
-            <div
-                onClick={handleExpanse}
-                className="expand"
-            >
-                <p>{expand ? "Riduci" : "Espandi"}</p>
-                <span class="material-icons-outlined">
+            
+            <div className="expand">
+                <p 
+                    onClick={handleExpanse}
+                >
+                    {expand ? "Riduci" : "Espandi"}
+                </p>
+                <span 
+                    onClick={handleExpanse}
+                    class="material-icons-outlined"
+                >
                     {expand ? "expand_less" : "expand_more"}
                 </span>
             </div>
         </div>
-        
     )
 }
