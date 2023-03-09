@@ -8,3 +8,34 @@
     margin-left: 20px;
     margin-bottom: 50px;
 }
+
+.contacts p {
+    font-family: 'Roboto';
+}
+
+@media only screen and (max-width: 500px) {
+    .contacts h3,
+    .description_page h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .description_page p {
+        margin-left: 5px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+    .contacts h3,
+    .description_page h3 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    .description_page p {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+}

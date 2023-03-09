@@ -16,7 +16,8 @@ export default function Schedule(
             {description3 && <p>{description3}</p>}
             {description3 && <hr />}
             <NavLink
-                to={link}            
+                to={link}
+                className="link-schedule"          
             >
                 Scopri di più
             </NavLink>

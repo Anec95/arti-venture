@@ -1,5 +1,4 @@
 import './header.css'
-import logo from 'Assets/img/ice-indaco.png'
 import NavBar from './components/NavBar/NavBar'
 
 export default function Header() {
@@ -11,7 +10,7 @@ export default function Header() {
                 <h1>Arti Venture</h1>
             </div>
             <div>
-                <img className="logo-header" alt='logo' src={logo} />
+                
             </div>
         </header>
     )

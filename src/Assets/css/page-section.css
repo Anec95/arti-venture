@@ -11,3 +11,37 @@
 .description_page {
     margin-bottom: 80px;
 }
+
+.description_page p {
+    font-family: 'Roboto';
+}
+
+@media only screen and (max-width: 500px) {
+    .page_main {
+        padding: 180px 10%;
+    }
+    
+    .title_page {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .description_page {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+    .page_main {
+        padding: 220px 10%;
+    }
+    
+    .title_page {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .description_page {
+        margin-bottom: 100px;
+    }
+}

@@ -11,8 +11,9 @@ export default function LeftSection() {
         console.log(menu)
     }
 
-    return (        
-        <div className={menu ? "showed-menu menu-container" : "menu-container"}>
+    return (
+        <div className="left-section">
+            <div className={menu ? "showed-menu menu-container" : "menu-container"}>
                 <span
                     onClick={toggleShow}
                     className={menu ? "material-icons-outlined menu-icon menu-icon-showed" : "material-icons-outlined menu-icon"}
@@ -44,5 +45,7 @@ export default function LeftSection() {
                     </nav>
                 }
             </div>
+        </div>        
+        
     )
 }
