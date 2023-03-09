@@ -4,7 +4,7 @@ const dataTextHomepage = [
         classe: "chi-siamo-section",
         title: "Chi Siamo",
         subtitle: "Nota Introduttiva",
-        description: `Alle sglie di una grande trasformazione...
+        description: `Alle soglie di una grande trasformazione...
             intrepidi alchimisti, maghi e cercatori, tracciano i parametri di una mappa essenziale
             per l'uomo del futuro.`,
         title2: "Cos'è Arti Venture",
